@@ -22,7 +22,5 @@ namespace Renderer
 		bool createShader(const std::string& source, const GLenum shaderType, GLuint& shaderID);
 		bool checkOnGoodCompile = false; // проверка на компиляцию
 		GLuint IdOfShaderFunc = 0; // ИД нашей шейдерной программы
-
-
 	};
 }
